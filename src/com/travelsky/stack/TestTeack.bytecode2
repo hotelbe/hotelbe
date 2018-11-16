@@ -1,0 +1,61 @@
+Classfile /Users/shiwei/helloworld/src/com/travelsky/stack/TestStack.class
+  Last modified Nov 15, 2018; size 315 bytes
+  MD5 checksum aea8b7b4dfc0a245f78df020aa16a0a5
+  Compiled from "TestStack.java"
+public class com.travelsky.stack.TestStack
+  SourceFile: "TestStack.java"
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #3.#12         //  java/lang/Object."<init>":()V
+   #2 = Class              #13            //  com/travelsky/stack/TestStack
+   #3 = Class              #14            //  java/lang/Object
+   #4 = Utf8               <init>
+   #5 = Utf8               ()V
+   #6 = Utf8               Code
+   #7 = Utf8               LineNumberTable
+   #8 = Utf8               main
+   #9 = Utf8               ([Ljava/lang/String;)V
+  #10 = Utf8               SourceFile
+  #11 = Utf8               TestStack.java
+  #12 = NameAndType        #4:#5          //  "<init>":()V
+  #13 = Utf8               com/travelsky/stack/TestStack
+  #14 = Utf8               java/lang/Object
+{
+  public com.travelsky.stack.TestStack();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 3: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=5, args_size=1
+         0: bipush        10
+         2: istore_1      
+         3: bipush        20
+         5: istore_2      
+         6: bipush        30
+         8: istore_3      
+         9: iload_1       
+        10: iload_2       
+        11: iadd          
+        12: iload_3       
+        13: iadd          
+        14: istore        4
+        16: return        
+      LineNumberTable:
+        line 6: 0
+        line 7: 3
+        line 8: 6
+        line 9: 9
+        line 11: 16
+}
