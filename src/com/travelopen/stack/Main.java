@@ -13,7 +13,6 @@ public class Main {
         byte[] space1 = new byte[_1MB*12];
         byte[] space2 = new byte[_1MB*8];
         byte[] space3 = new byte[_1MB*4];
-
         byte[] space4 = new byte[_1MB*4];
     }
 }
