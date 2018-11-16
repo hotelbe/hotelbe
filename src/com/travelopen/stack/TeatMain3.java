@@ -14,6 +14,5 @@ public class TeatMain3 {
         }
         long end =System.currentTimeMillis();
         System.out.println(end-start);
-
     }
 }
