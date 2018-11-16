@@ -11,6 +11,6 @@ public class Main {
 
     public static void main(String[] args) {
         byte[] space1 = new byte[_1MB*4];
-        byte[] space2 = new byte[_1MB*4];
+        byte[] space2 = new byte[_1MB*8];
     }
 }
