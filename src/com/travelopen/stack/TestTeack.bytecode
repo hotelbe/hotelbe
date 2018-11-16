@@ -2,7 +2,7 @@ Classfile /Users/shiwei/helloworld/src/com/travelsky/stack/TestStack.class
   Last modified Nov 15, 2018; size 305 bytes
   MD5 checksum 45ab9a810136fd6083bcdea9d18cdba2
   Compiled from "TestStack.java"
-public class com.travelsky.stack.TestStack
+public class TestStack
   SourceFile: "TestStack.java"
   minor version: 0
   major version: 52
@@ -23,7 +23,7 @@ Constant pool:
   #13 = Utf8               com/travelsky/stack/TestStack
   #14 = Utf8               java/lang/Object
 {
-  public com.travelsky.stack.TestStack();
+  public TestStack();
     descriptor: ()V
     flags: ACC_PUBLIC
     Code:
