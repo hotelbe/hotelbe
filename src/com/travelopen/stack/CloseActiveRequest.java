@@ -12,4 +12,8 @@ public class CloseActiveRequest implements Serializable {
 
 
     private static final long serialVersionUID = 9090523616132004593L;
+
+    public static void main(String[] args) {
+        System.out.println("");
+    }
 }
