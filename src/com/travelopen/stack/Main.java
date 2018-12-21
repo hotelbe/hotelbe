@@ -29,9 +29,9 @@ public class Main {
 
         users.forEach((User user) -> System.out.println(user.toString()));
 
-        // for (int i = 0; i < users.size(); i++) {
-        //     User user = users.get(i);
-        //     System.out.println(user.toString());
-        // }
+        for (int i = 0; i < users.size(); i++) {
+            User user = users.get(i);
+            System.out.println(user.toString());
+        }
     }
 }
